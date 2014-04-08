@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rounded Window Example</title>
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <script src="util.js"></script>
+</head>
+
+<body onload="onloadHandler();">
+    <div id="main_div">
+        <div class="window_title_div">
+            <span class="window_title_text">Rounded Window</span>
+        </div>
+        <img src="minimize.svg" id="minimize_button" onclick="handleMinimize();"/>
+        <img src="close.svg" id="close_button" onclick="handleClose();"/>
+        <div id="body_div">
+          <button onclick="showDevTools()">Show Developer Tools</button>
+        </div>
+    </div>
+</body>
+</html>
